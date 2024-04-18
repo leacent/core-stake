@@ -1,11 +1,10 @@
 import { useEffect, useState } from 'react'
 import { Select, Input } from 'antd'
-import bg from '/bg.svg'
 import './App.css'
 
 function App() {
-  const [title, setTitle] = useState("REDEMPTION")
-  const [inputVal, setInputVal] = useState(0)
+  const [title] = useState("REDEMPTION")
+  const [inputVal] = useState(0)
   const [selectVal, setSelectVal] = useState("USDT")
   const [btnText, setBtnText] = useState("Switch to Core")
   const [stakeStatus, setStakeStatus] = useState(1)
