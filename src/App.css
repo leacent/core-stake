@@ -1,0 +1,314 @@
+.home {
+  height: 100vh;
+  width: 100vw;
+  background-image: url('/bg.svg');
+  background-repeat: repeat;
+  background-size: cover;
+  padding-top: 175px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.banner {
+  margin-bottom: 20px;
+  width: 890px;
+  height: 200px;
+}
+
+.stake-box {
+  background-color: #fff;
+  border: 1px solid #000;
+  box-shadow: 1px 1px 0px 1px #000;
+  width: 434px;
+  /* height: 392px; */
+}
+.stake-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.stake-left {
+  flex: 1
+}
+
+.top {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #000;
+}
+
+.left, .right {
+  display: flex;
+  flex: 1;
+  width: 400px;
+  flex-direction: column;
+  padding: 0 4px;
+}
+
+.line-bg {
+  background: var(--black-000000, #000);
+  width: 100%;
+  height: 1px;
+  margin-top: 2px;
+}
+
+.top .title {
+  width: 120px;
+  display: inline-block;
+  padding: 0 20px;
+  color: #000;
+  text-align: center;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.operation-name {
+  color: var(--black-000000, #000);
+  font-family: "Fraktion Mono";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 32px;
+  margin-left: 24px;
+  margin-bottom: 12px;
+}
+
+.token-box {
+  border-radius: 4px;
+  border: 1px solid var(--black-000000, #000);
+  background: #E8E8E8;
+  margin-left: 24px;
+  margin-right: 24px;
+  padding: 16px;
+}
+
+.redeem-box {
+  border-radius: 4px;
+  border: 1px solid var(--black-000000, #000);
+  background: #E8E8E8;
+  margin-left: 24px;
+  margin-right: 24px;
+  padding: 16px;
+}
+
+.redeem-label {
+  color: var(--grey-shade-4999999, #999);
+  font-family: "Fraktion Mono";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 16.8px */
+  margin-bottom: 12px;
+}
+
+.balance-redeem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: var(--black-000000, #000);
+  font-family: "Fraktion Mono";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 21.6px */
+}
+
+.redeem-left {
+  display: flex;
+  align-items: center;
+}
+
+.input-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+
+.token-select {
+  width: 103px;
+  height: 32px;
+  border: 1px solid #000;
+  border-radius: 4px;
+}
+:where(.css-dev-only-do-not-override-usln0u).ant-select-single .ant-select-selector {
+  border-radius: 4px;
+}
+:where(.css-dev-only-do-not-override-usln0u).ant-select-outlined:not(.ant-select-customize-input) .ant-select-selector {
+  border: none;
+}
+
+.token-input {
+  background-color: #E8E8E8;
+  border: none;
+  width: 120px;
+  color: #999;
+  font-size: 18px;
+  font-weight: 700;
+  font-family: "Fraktion Mono";
+  text-align: right;
+}
+
+:where(.css-dev-only-do-not-override-usln0u).ant-input-outlined:focus, :where(.css-dev-only-do-not-override-usln0u).ant-input-outlined:focus-within {
+  border-color: #E8E8E8;
+  background-color: #E8E8E8;
+  box-shadow: none
+}
+
+.customize-label {
+  display: flex;
+  align-items: center;
+  font-family: Geneva;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+}
+.customize-label img {
+  width: 18px;
+  height: 18px;
+  margin-right: 8px;
+}
+
+.token-balance {
+  display: flex;
+}
+
+.balance-box {
+  display: flex;
+  justify-content: space-between;
+  color: #999;
+  text-align: left;
+  font-family: Geneva;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%; /* 14.4px */
+  letter-spacing: -0.24px;
+}
+.max-btn {
+  margin-left: 4px;
+  color: var(--black-000000, #000);
+  font-family: Geneva;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%; /* 14.4px */
+}
+
+.stake-btn {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 60px;
+  border: 1px solid var(--black-000000, #000);
+  width: 356px;
+  height: 56px;
+  cursor: pointer;
+}
+
+.stake-btn:hover {
+  opacity: 0.9;
+  top: 0.5px;
+  transition: all ease 0.5s;
+}
+
+.btn-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  background: var(--black-000000, #000);
+  top: 0;
+  left: 0;
+  width: 356px;
+  height: 56px;
+  color: var(--star-white-ffffff, #FFF);
+  text-align: center;
+  font-family: "Fraktion Mono";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 21.6px */
+  z-index: 99;
+}
+
+.btn-border {
+  z-index: 80;
+  width: 356px;
+  height: 56px;
+  border: 1px solid #000;
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  background-color: #E8E8E8;
+}
+
+.stake-info {
+  margin-top: 40px;
+  padding-left: 24px;
+  padding-right: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  margin-right: 4px;
+}
+
+
+.stake-label {
+  color: var(--black-000000, #000);
+  font-family: "Fraktion Mono";
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.stake-value {
+  color: var(--black-000000, #000);
+  text-align: right;
+  font-family: Geneva;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+
+.box-bottom {
+  height: 27px;
+  border-top: 1px solid #000;
+  margin-top: 4px;
+}
+
+.stake-right {
+  height: 400px;
+  width: 28px;
+  border-left: 1px solid #000;
+  position: relative;
+}
+.bottom-border {
+  position: absolute;
+  bottom: 26px;
+  width: 28px;
+  height: 1px;
+  background-color: #000;
+}
+.stake-right img {
+  position: absolute;
+  bottom: 5px;
+  width: 16px;
+  height: 16px;
+  left: 6px;
+}
